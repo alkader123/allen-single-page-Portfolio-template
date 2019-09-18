@@ -1,0 +1,106 @@
+@media only screen and (max-width: 2000px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+
+  header {
+    min-height: 60vh;
+  }
+
+  .about-img {
+    margin-top: 4rem;
+  }
+
+  .contact-form input,
+  textarea {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .contact-form .button {
+    margin-left: 3.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  header {
+    min-height: 70vh;
+  }
+
+  .home-section nav {
+    display: none;
+  }
+
+  .home-section .hamburger-menu {
+    display: block;
+  }
+
+  .header-text {
+    margin-top: 25%;
+  }
+
+  .about-head {
+    padding-top: 0rem;
+  }
+
+  .contact-section .button {
+    margin-left: 4rem;
+  }
+
+  .services-section h3::after {
+    margin-left: 47%;
+  }
+
+}
+
+
+@media only screen and (max-width: 576px) {
+
+  header {
+    min-height: 80vh;
+  }
+
+  .services-section h2 {
+    padding: 2rem;
+  }
+
+  .client-section img {
+
+    margin-left: 42%;
+  }
+
+  .menu-wrap .menu {
+    margin-top: -15rem;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+
+  html {
+    font-size: 52%;
+    scroll-behavior: smooth;
+  }
+
+  header {
+    min-height: 80vh;
+  }
+
+  .header-text {
+    margin-top: 30%;
+  }
+
+  .contact-section .button {
+    margin-left: 3rem;
+  }
+
+  .menu-wrap .menu {
+    margin-top: -10rem;
+  }
+}
